@@ -1,0 +1,31 @@
+@media all and (max-width: 720px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+    .start{
+        background-image: url(../img/gar.jpg);
+        background-size: 100%;
+		background-repeat: no-repeat;
+		height: 300px;
+    }
+    .menu2{
+    	display: block;
+   	}
+   	.special{
+   		width: 50% !important;
+   		
+   	}
+   	.garn{
+   		width: 50% !important;
+   		display: inline-block;
+   	}
+   	.menu{
+    	display: none;
+    }
+}
+@media (max-width: 534px){
+    [class*="col-"]{
+        width: 100%;
+    }
+
+}

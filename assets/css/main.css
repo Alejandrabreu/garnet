@@ -1,0 +1,128 @@
+/* color principal Granate:#B40404
+*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Atomic Age', cursive;
+}
+.bar{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #2e2e2a;
+	line-height: 40px;
+}
+li{
+	padding-left: 4px;
+	padding-right: 7px;
+	display: inline-block;
+	text-align: center;
+	color: #B40404;
+	border-right: 1px solid #DF0101;
+	border-left: 1px solid #2e2e2a;
+}
+li:first-child{
+	border-left: 1px solid #DF0101;
+}
+li:last-child{
+	border:none;
+}
+.menu2{
+	display: none;
+	background: #2e2e2a;
+}
+.special{
+	color: #B40404;
+	padding-left: 40%;
+}
+p{
+	color: #B40404;
+}
+.gar{
+	font-weight: bold;
+	font-size: 24px;
+}
+a{
+  text-decoration: none;
+  display: block;
+  color: #B40404;
+}
+li:hover{
+  background: #DF0101;
+}
+a:hover{
+  color: #000;
+}
+a:active{
+  background: #DF0101;
+  color: #fff;
+}
+.init{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.start{
+	background-image: url(../img/garnet1-01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+.contact{
+	list-style: none;
+	display: inline-block;
+}
+.who{
+	padding-top: 2%;
+	text-align: center;
+}
+.iam{
+	padding: 2% 5%;
+	text-align: justify;
+}
+.call{
+	padding-top: 5%;
+}
+.contact{
+	padding: 2% 5%;
+}
+.more, .push{
+margin-top: 4%;
+margin-left: 5%;
+background-color: #2e2e2a;
+font-family: 'Atomic Age', cursive;
+color: #C0676C;
+border: none;
+padding: 1%;
+border-radius: 68px 68px 68px 68px;
+}
+.more:hover{
+  color: #B40404;
+}
+h5{
+	padding-top: 2%;
+	text-align: center;	
+}
+.button{
+	border-top:1px solid #000;
+	padding-bottom: 2%;
+}
+img{
+	width: 100%;
+}
+.images{
+	border: 1px solid black;
+}
+.paragraph-1, .paragraph-2, .paragraph-3{
+	text-align: justify;
+	padding: 4%;
+}
+.footer{
+	padding: 0 auto;
+}
+.final{
+	text-align: center;
+	background-color: #2e2e2a;
+	padding: 4%;
+	margin: 0;
+}
