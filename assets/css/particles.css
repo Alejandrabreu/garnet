@@ -1,0 +1,28 @@
+#particles-js{
+	background: url(../img/garnet1-01.jpg);
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+	height: 500px;
+}
+.welcome{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	text-shadow: 5px 5px #DF0101;
+	
+}
+.salute{
+	width: 80%;
+	margin: auto;
+	z-index: 1;
+}
+.salute h1{
+	color: 000;
+	
+}
+.salute p{
+	color: #000;
+	font-weight: 4%;
+}
